@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: -5px 290px;
+}
+
+.section1{
+    width: 300px;
+    height: 150px;
+    background-color: hsl(228, 56%, 26%);
+    border-top-right-radius: 40%;
+}
+
+.in_section1{
+    padding: 20px;
+}
+
+.inner_box{
+    width: 38px;
+    height: 40px;
+    background-color:hsl(229, 57%, 11%);
+    border-radius: 8px;
+}
+
+.in_doc{
+   padding: 8px;
+    
+}
+.inner_box_display{
+    padding-top: 25px;
+    display: flex;
+    gap: 1rem;
+}
+https://github.com/sahangeethma/Fylo-data-storage-component/blob/main/css/styles.css
+https://github.com/sahangeethma/Fylo-data-storage-component/blob/main/index.html
