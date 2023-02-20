@@ -1,31 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Fylo data storage component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fylo data storage component</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main>
+        <div class="container">
+            <div class="general_display">
+                <div class="section1">
+                    <div class="in_section1">
+                        <img src="./images/logo.svg"/>
+                        <div class="inner_box_display">
+                            <div class="inner_box">
+                                <img  src="./images/icon-document.svg" class="in_doc"/>
+                            </div>
+                
+                            <div class="inner_box">
+                                <img  src="./images/icon-folder.svg" class="in_doc"/>
+                            </div>
+                
+                            <div class="inner_box">
+                                <img  src="./images/icon-upload.svg" class="in_doc"/>
+                            </div>
+                
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+                <div class="section2">
+                    <div class="in_section2">
+                    </div>
+                    <div class="gb_box_container">
+                        <div class="gb_box">
+                            <div class="in_num_gb_left">
+                                <div class="num_gb_left_display">
+                                    <div class="num">185</div>
+                                    <div class="gb_left">GB LEFT</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="triangle-down ">
+                    </div>
+                    
 
-  You’ve used 815 GB of your storage
-
-  185 GB Left
-  
-  0 GB
-  1000 GB
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+                    </div>
+                        <p class="p_info">You’ve used <span>815 GB</span> of your storage</p>
+                        <div class="gb_usage_display">
+                            <div class="inner_usage_display_gradient">
+                                <div class="dot_placement">
+                                    <div class="dot">
+        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="data_range">
+                            <p> 0 GB</p>
+                            <p>1000 GB</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </main>
+    <footer>
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Frank Oguche</a>.
+    </footer>
 </body>
 </html>

@@ -48,7 +48,6 @@ body{
     border-radius: 10px;
     margin-top: 40px;
     padding-left: 30px;
-    
 }
 
 .p_info{
@@ -129,7 +128,7 @@ span{
 }
 
 .gb_box_container{
-    margin-left: 65%;
+    margin-left: 64%;
 }
 
 .container{
@@ -160,3 +159,78 @@ span{
 .in_num_gb_left{
     padding: 12px;
 }
+
+footer{
+    color: white;
+    font-size: small;
+    text-align: end;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+@media screen and (max-width:414px){
+
+    body{
+        background-color: hsl(229, 57%, 11%);
+        background-image: url(./images/bg-mobile.png);
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+    
+    .general_display{
+        display: flex;
+        flex-direction: column;
+        gap: 0rem;
+    }
+
+    .section1{
+        width: 250px;
+    }
+    .section2{
+        width: 250px;
+        height: 150px;
+        padding-left: 15px;
+        margin-top: 20px;
+    }
+
+    .gb_usage_display{
+        width: 200px;
+    }
+    
+    .inner_usage_display_gradient{
+        padding-top: 1px;
+        border: 3px solid none;
+        background-image: linear-gradient(to right, #ffa399 , #ff4d97);
+        border-radius: 10px;
+        width: 120px;
+        height: 15px;
+    }
+
+    .in_section2{
+        padding: 13px;
+    }
+    
+    .data_range{
+        color: hsl(243, 100%, 93%);
+        display: flex;
+        gap: 7rem;
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif;
+        padding-top: 10px;
+    }
+  
+    .gb_box{
+        display: none;
+    }
+    .triangle-down {
+      display: none;
+    }
+    
+    footer{
+        display: none;
+    }
+}
+
