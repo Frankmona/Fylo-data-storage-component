@@ -178,12 +178,15 @@ a{
         background-image: url(./images/bg-mobile.png);
         background-repeat: no-repeat;
         background-position: left top;
+        background-size: 100% 150%;
+      
     }
     
     .general_display{
         display: flex;
         flex-direction: column;
         gap: 0rem;
+
     }
 
     .section1{
@@ -233,4 +236,3 @@ a{
         display: none;
     }
 }
-
